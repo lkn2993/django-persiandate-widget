@@ -9,8 +9,10 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
     name='django-persiandate-widget',
-    version='0.1',
+    version='1.0b1',
+    keywords='widgets persian',
     packages=['persiandate'],
+    install_requires=['django'],
     include_package_data=True,
     license='BSD 3-Clause License', 
     description='ویدجتی برای نمایش تاریخ به فرمت جلالی به همراه یک تقویم برای ورود آسان داده',
@@ -19,6 +21,7 @@ setup(
     author='Your Name',
     author_email='lkn2993@gmail.com',
     classifiers=[
+        'Development Status :: 4 - Beta',
         'Environment :: Web Environment',
         'Framework :: Django',
         'Intended Audience :: Developers',
