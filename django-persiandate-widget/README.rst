@@ -12,7 +12,7 @@
 برای شروع
 -----------
 
-1.Install this package from here or python package index:
+1.Install this package from here or python package index::
 	
 	python -m pip install django-persiandate-widget
 
