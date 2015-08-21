@@ -24,11 +24,12 @@
     )
 
 3. Include the PersianDateInput in your project forms.py like this::
+
 	from django import forms
     from persiandate.widgets import PersianDateInput
 	class my_form(forms.Form)
 		...
-		my_date = forms.DateField(widget=PersianDateInput)
+		my_date = forms.DateField(widget=PersianDateInput())
 		...
 
 نیازمندی ها
