@@ -9,17 +9,21 @@
 همچنین این ویدجت در حین ثبت داده ی خود نیز دوباره آن را از قالب شمسی به میلادی تبدیل می کند و بدین ترتیب تاریخ در جنگو با فرمت صحیح ذخیره می شود
 
 
-Quick Start
+برای شروع
 -----------
 
-1. Add "persiandate-widget" to your INSTALLED_APPS setting like this::
+1.Install this package from here or python package index:
+	
+	python -m pip install django-persiandate-widget
+
+2. Add "persiandate-widget" to your INSTALLED_APPS setting like this::
 
     INSTALLED_APPS = (
         ...
         'persiandate',
     )
 
-2. Include the PersianDateInput in your project forms.py like this::
+3. Include the PersianDateInput in your project forms.py like this::
 	from django import forms
     from persiandate.widgets import PersianDateInput
 	class my_form(forms.Form)
@@ -27,14 +31,14 @@ Quick Start
 		my_date = forms.DateField(widget=PersianDateInput)
 		...
 
-Requirements
+نیازمندی ها
 -----------
 1.10<jquery<2
 
 
-Notes
+نکات
 -----------
-jquery javascript file must be included before the datefield or the widget will not work
+Jquery javascript file must be included before the datefield or the widget will not work
 
 
 
