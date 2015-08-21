@@ -9,7 +9,7 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
     name='django-persiandate-widget',
-    version='1.0b1',
+    version='1.0b2',
     keywords='widgets persian',
     packages=['persiandate'],
     install_requires=['django'],
